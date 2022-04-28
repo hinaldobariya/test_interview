@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* Sidebar */
+
+.container_main{
+  display: block;
+  justify-content: space-between;
+}
+.dropdown_form{
+
+  position: fixed;
+  width: 30%;
+  padding-left: 10%;
+}
+.button{
+  display: flex;
+  padding-bottom: 2%;
+}
+
+.button_inner_div{
+  padding-left: 4%;
+
+}
+.label_div{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+h3{
+  padding-top: 8%;
+}
+
+.content{
+  text-align: start;
+  padding-left: 5%;
+}
+.main{
+  border: 1px solid #ced4da;
+  border-radius: 13px;
+  padding-left: 4%;
+  padding-top: 4%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+}
+
+.main_head{
+  float: right;
+  width: 50%;
+  padding-right: 5%;
+
+}
+.content_button{
+  position: absolute;
+}
+.main_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 13%;
+}
+.foot_content{
+  text-align: start;
+}
+#whatsapp{
+  background-color: darkcyan;
+  border: darkcyan;
+}
+#call{
+  background-color: gainsboro;
+  border: gainsboro;
+  color: black;
+}
+.foot{
+  justify-content: flex-start;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 2%;
+}
+.h4_div{
+  width: 60%;
+  text-align: start;
+  padding-left: 4%;
+}
+#searchbox{
+  width: 100%;
+}
+p{
+  text-align: start;
+}
+.label_btn{
+  padding-top: 20%;
+}
+.modal_button{
+  border-radius: 2rem;
+  border-color: azure;
+}
+
+.text-decoration {
+text-decoration: underline;
+}
+.internet-button
+{
+  color: black;
+  background-color: white;
+  border-color: gray;
+}
